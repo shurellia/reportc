@@ -65,6 +65,12 @@ int main()
     else if ( checkcard < 0 ){ //체크카드 사용액 음수검사
         error = 1;
     }
+    else if ( checkcard > salary ){
+        error = 1;
+    }
+    else if ( creditcard > salary ){
+        error = 1;
+    }
 
     if ( error == 1 ){
         printf("자료가 잘못 입력되었습니다.\n프로그램을 종료합니다.");
