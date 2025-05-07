@@ -3,7 +3,7 @@
 #define 기본시급 12000
 #define 추가분급 100
 #define 부양가족환급 2000
-//예외처리하기
+
 
 int main()
 { 
