@@ -65,10 +65,10 @@ int main()
     else if ( checkcard < 0 ){ //체크카드 사용액 음수검사
         error = 1;
     }
-    else if ( checkcard > salary ){
+    else if ( checkcard > salary ){ //체크카드 사용액이 월급을 넘는지 검사
         error = 1;
     }
-    else if ( creditcard > salary ){
+    else if ( creditcard > salary ){ //신용카드 사용액이 월급을 넘는지 검사
         error = 1;
     }
 
